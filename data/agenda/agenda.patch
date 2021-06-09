@@ -1,0 +1,257 @@
+--- original/unprocessed.train.json	2019-05-07 02:43:37.000000000 +0200
++++ unprocessed.train.json	2019-11-21 11:21:59.140965649 +0100
+@@ -134241,22 +134241,21 @@
+       "<i> informative </i> columns",
+       "machine learning applications",
+       "adaptive sampling technique",
+-      "nystr &#246",
+-      "m",
++      "nystr &#246 m",
+       "sampling methods",
+       "column-sampling methods"
+     ],
+     "types": "<task> <method> <otherscientificterm> <task> <method> <method> <method> <method>",
+     "relations": [
+-      "sampling methods -- HYPONYM-OF -- sampling-based spectral decomposition techniques",
+-      "adaptive sampling technique -- COMPARE -- m",
+-      "nystr &#246 -- HYPONYM-OF -- sampling-based spectral decomposition techniques",
++      "column-sampling methods -- HYPONYM-OF -- sampling-based spectral decomposition techniques",
++      "adaptive sampling technique -- COMPARE -- sampling methods",
++      "nystr &#246 m -- HYPONYM-OF -- sampling-based spectral decomposition techniques",
+       "adaptive sampling technique -- USED-FOR -- <i> informative </i> columns",
+       "approximate singular value decomposition of large dense matrices -- USED-FOR -- machine learning applications",
+-      "nystr &#246 -- CONJUNCTION -- sampling methods"
++      "nystr &#246 m -- CONJUNCTION -- column-sampling methods"
+     ],
+     "abstract": "this paper addresses the problem of <task_0> that arises naturally in many <task_3> . we discuss two recently introduced <method_1> : the <method_5> and the <method_7> . we present a theoretical comparison between the two <method_1> and provide novel insights regarding their suitability for various applications . we then provide experimental results motivated by this theory . finally , we propose an efficient <method_4> to select <otherscientificterm_2> from the original matrix . this novel <method_4> outperforms standard <method_6> on a variety of datasets .",
+-    "abstract_og": "this paper addresses the problem of approximate singular value decomposition of large dense matrices that arises naturally in many machine learning applications . we discuss two recently introduced sampling-based spectral decomposition techniques : the nystr &#246 and the sampling methods . we present a theoretical comparison between the two sampling-based spectral decomposition techniques and provide novel insights regarding their suitability for various applications . we then provide experimental results motivated by this theory . finally , we propose an efficient adaptive sampling technique to select <i> informative </i> columns from the original matrix . this novel adaptive sampling technique outperforms standard m on a variety of datasets ."
++    "abstract_og": "this paper addresses the problem of approximate singular value decomposition of large dense matrices that arises naturally in many machine learning applications . we discuss two recently introduced sampling-based spectral decomposition techniques : the nystr &#246 m and the column-sampling methods . we present a theoretical comparison between the two sampling-based spectral decomposition techniques and provide novel insights regarding their suitability for various applications . we then provide experimental results motivated by this theory . finally , we propose an efficient adaptive sampling technique to select <i> informative </i> columns from the original matrix . this novel adaptive sampling technique outperforms standard sampling methods on a variety of datasets ."
+   },
+   {
+     "title": "Deep Learning for Predicting Human Strategic Behavior .",
+@@ -139278,7 +139277,6 @@
+       "partially labeled dataset",
+       "continuous density hmms",
+       "accuracy &#949",
+-      "",
+       "severe approximations",
+       "bundle methods",
+       "optimization problem",
+@@ -139288,16 +139286,16 @@
+     "types": "<task> <task> <material> <method> <metric> <otherscientificterm> <method> <task> <method> <method>",
+     "relations": [
+       "partially labeled dataset -- PART-OF -- speech and handwriting recognition fields",
+-      "speech and handwriting recognition -- EVALUATE-FOR -- non-convex optimization",
+-      "non-convex optimization -- USED-FOR -- bundle methods",
++      "speech and handwriting recognition -- EVALUATE-FOR -- learning algorithm",
++      "learning algorithm -- USED-FOR -- optimization problem",
+       "continuous density hmms -- PART-OF -- speech and handwriting recognition fields",
+-      "severe approximations -- USED-FOR -- non-convex optimization",
++      "bundle methods -- USED-FOR -- learning algorithm",
+       "partially labeled dataset -- USED-FOR -- continuous density hmms",
+-      "optimization problem -- CONJUNCTION -- severe approximations",
+-      "optimization problem -- USED-FOR -- non-convex optimization"
++      "non-convex optimization -- CONJUNCTION -- bundle methods",
++      "non-convex optimization -- USED-FOR -- learning algorithm"
+     ],
+     "abstract": "large margin learning of <method_3> with a <material_2> has been extensively studied in the <task_0> . yet due to the non-convexity of the <task_7> , previous works usually rely on <otherscientificterm_5> so that it is still an open problem . we propose a new <method_9> that relies on <method_8> and <method_6> and allows tackling the original <task_7> as is . <method_9> is proved to converge to a solution with <metric_4> with a rate o -lrb- 1 / &#949; -rrb- . we provide experimental results gained on <task_1> that demonstrate the potential of the <method_9> .",
+-    "abstract_og": "large margin learning of continuous density hmms with a partially labeled dataset has been extensively studied in the speech and handwriting recognition fields . yet due to the non-convexity of the bundle methods , previous works usually rely on  so that it is still an open problem . we propose a new non-convex optimization that relies on optimization problem and severe approximations and allows tackling the original bundle methods as is . non-convex optimization is proved to converge to a solution with accuracy &#949 with a rate o -lrb- 1 / &#949; -rrb- . we provide experimental results gained on speech and handwriting recognition that demonstrate the potential of the non-convex optimization ."
++    "abstract_og": "large margin learning of continuous density hmms with a partially labeled dataset has been extensively studied in the speech and handwriting recognition fields . yet due to the non-convexity of the optimization problem , previous works usually rely on severe approximations so that it is still an open problem . we propose a new learning algorithm that relies on non-convex optimization and bundle methods and allows tackling the original optimization problem as is . learning algorithm is proved to converge to a solution with accuracy &#949 with a rate o -lrb- 1 / &#949; -rrb- . we provide experimental results gained on speech and handwriting recognition that demonstrate the potential of the learning algorithm ."
+   },
+   {
+     "title": "Supervised classification using MCMC methods .",
+@@ -354142,8 +354140,7 @@
+     "entities": [
+       "false positive error probability",
+       "automatic identification of videos",
+-      "divx",
+-      "--rrb- algorithm",
++      "divx --rrb- algorithm",
+       "hash extraction process",
+       "database strategy",
+       "hashing algorithm",
+@@ -354154,14 +354151,14 @@
+     ],
+     "types": "<metric> <task> <method> <method> <method> <method> <otherscientificterm> <method> <task> <method>",
+     "relations": [
+-      "identification threshold -- USED-FOR -- identification",
+-      "divx -- USED-FOR -- identification",
+-      "identification threshold -- CONJUNCTION -- divx",
+-      "--rrb- algorithm -- CONJUNCTION -- hash extraction process",
+-      "false positive error probability -- USED-FOR -- hashing algorithm"
++      "mpeg standard -- USED-FOR -- compression",
++      "divx --rrb- algorithm -- USED-FOR -- compression",
++      "mpeg standard -- CONJUNCTION -- divx --rrb- algorithm",
++      "hash extraction process -- CONJUNCTION -- database strategy",
++      "false positive error probability -- USED-FOR -- identification threshold"
+     ],
+     "abstract": "the goal of the paper is to present a novel technique for <task_1> . this technique is based on a <method_5> which analyzes the video in order to extract its fingerprinting or hash value . this fingerprint allows the unambiguous . two main aspects are considered : the <method_3> and the <method_4> to retrieve information . it is also proposed an analysis of the <metric_0> in order to identify an <otherscientificterm_6> . the proposed technique is tested under different kind of <method_9> using <method_7> and <method_2> . the results show that a reliable <task_8> can be performed .",
+-    "abstract_og": "the goal of the paper is to present a novel technique for automatic identification of videos . this technique is based on a database strategy which analyzes the video in order to extract its fingerprinting or hash value . this fingerprint allows the unambiguous . two main aspects are considered : the --rrb- algorithm and the hash extraction process to retrieve information . it is also proposed an analysis of the false positive error probability in order to identify an hashing algorithm . the proposed technique is tested under different kind of identification using identification threshold and divx . the results show that a reliable mpeg standard can be performed ."
++    "abstract_og": "the goal of the paper is to present a novel technique for automatic identification of videos . this technique is based on a hashing algorithm which analyzes the video in order to extract its fingerprinting or hash value . this fingerprint allows the unambiguous . two main aspects are considered : the hash extraction process and the database strategy to retrieve information . it is also proposed an analysis of the false positive error probability in order to identify an identification threshold . the proposed technique is tested under different kind of compression using mpeg standard and divx --rrb- algorithm . the results show that a reliable identification can be performed ."
+   },
+   {
+     "title": "Gait Recognition under Speed Transition .",
+@@ -530717,8 +530714,7 @@
+     "entities": [
+       "dynamic bayesian networks",
+       "conditional likelihood </i>",
+-      "gaussian na &#239",
+-      "ve bayes networks",
++      "gaussian na &#239 ve bayes networks",
+       "class-conditional likelihood",
+       "simulated data experiments",
+       "class discriminative structures",
+@@ -530737,12 +530733,12 @@
+     ],
+     "types": "<method> <method> <method> <otherscientificterm> <material> <otherscientificterm> <method> <otherscientificterm> <method> <method> <task> <method> <method> <material> <otherscientificterm> <otherscientificterm> <material> <material>",
+     "relations": [
+-      "class discrimination -- COMPARE -- gaussian na &#239",
+-      "class-conditional likelihood -- USED-FOR -- ve bayes networks",
+-      "ve bayes networks -- USED-FOR -- dynamic bayesian networks"
++      "bde-trained dbns -- COMPARE -- gaussian na &#239 ve bayes networks",
++      "simulated data experiments -- USED-FOR -- class-conditional likelihood",
++      "class-conditional likelihood -- USED-FOR -- dynamic bayesian networks"
+     ],
+     "abstract": "in many domains , a <method_6> 's <otherscientificterm_7> is not known a <otherscientificterm_15> and must be inferred from data . this requires a <method_8> to measure how well a proposed <method_9> describes a set of data . many commonly used scores such as <material_16> , bde , <material_17> , etc. , are not well suited for <task_10> . instead , scores such as the <otherscientificterm_3> should be employed . unfortunately , <otherscientificterm_3> does not decompose and its application to large domains is not feasible . we introduce a <otherscientificterm_14> , <i> approximate <method_1> that is capable of identifying <otherscientificterm_5> . we show that <method_0> trained with <otherscientificterm_3> have classification efficacies competitive to those trained with <otherscientificterm_3> on a set of <material_4> . we also show that <method_0> outperform <method_11> , <method_2> and support <method_12> within a <material_13> too large for <otherscientificterm_3> .",
+-    "abstract_og": "in many domains , a class discriminative structures 's bayesian network is not known a decomposable score and must be inferred from data . this requires a topological structure to measure how well a proposed scoring function describes a set of data . many commonly used scores such as priori , bde , bd , etc. , are not well suited for network topology . instead , scores such as the ve bayes networks should be employed . unfortunately , ve bayes networks does not decompose and its application to large domains is not feasible . we introduce a neuroscience domain , <i> approximate conditional likelihood </i> that is capable of identifying simulated data experiments . we show that dynamic bayesian networks trained with ve bayes networks have classification efficacies competitive to those trained with ve bayes networks on a set of class-conditional likelihood . we also show that dynamic bayesian networks outperform class discrimination , gaussian na &#239 and support bde-trained dbns within a vector machines too large for ve bayes networks ."
++    "abstract_og": "in many domains , a bayesian network 's topological structure is not known a priori and must be inferred from data . this requires a scoring function to measure how well a proposed network topology describes a set of data . many commonly used scores such as bd , bde , bdeu , etc. , are not well suited for class discrimination . instead , scores such as the class-conditional likelihood should be employed . unfortunately , class-conditional likelihood does not decompose and its application to large domains is not feasible . we introduce a decomposable score , <i> approximate conditional likelihood </i> that is capable of identifying class discriminative structures . we show that dynamic bayesian networks trained with class-conditional likelihood have classification efficacies competitive to those trained with class-conditional likelihood on a set of simulated data experiments . we also show that dynamic bayesian networks outperform bde-trained dbns , gaussian na &#239 ve bayes networks and support vector machines within a neuroscience domain too large for class-conditional likelihood ."
+   },
+   {
+     "title": "Integrated pedestrian classification and orientation estimation .",
+@@ -739845,8 +739841,7 @@
+     "title": "Boosting with structural sparsity .",
+     "entities": [
+       "adaboost and related gradient-based coordinate descent methods",
+-      "<i> l </i> &#8734",
+-      "norms",
++      "<i> l </i> &#8734 norms",
+       "automatic stopping criterion",
+       "coordinate descent algorithms",
+       "structurally sparse models",
+@@ -739863,14 +739858,14 @@
+     ],
+     "types": "<method> <otherscientificterm> <otherscientificterm> <method> <method> <method> <otherscientificterm> <otherscientificterm> <otherscientificterm> <otherscientificterm> <task> <task> <method> <otherscientificterm> <task>",
+     "relations": [
+-      "mixed-norm regularizers -- USED-FOR -- automatic stopping criterion",
+-      "mixed-norm regularizers -- CONJUNCTION -- regularization",
+-      "structurally sparse models -- CONJUNCTION -- mixed-norm regularizers",
+-      "structurally sparse models -- CONJUNCTION -- regularization",
+-      "norms -- USED-FOR -- parameter space"
++      "regularization -- USED-FOR -- coordinate descent algorithms",
++      "regularization -- CONJUNCTION -- back-pruning",
++      "forward feature induction -- CONJUNCTION -- regularization",
++      "forward feature induction -- CONJUNCTION -- back-pruning",
++      "automatic stopping criterion -- USED-FOR -- feature induction"
+     ],
+     "abstract": "we derive generalizations of <method_0> that incorporate <otherscientificterm_6> for the norm of the predictor that is being learned . the end result is a family of <method_3> that integrate <method_5> and <task_14> through <otherscientificterm_13> and give an <otherscientificterm_2> for <task_10> . we study penalties based on the <i> l </i> <sub> 1 </sub> , <i> l </i> <sub> 2 </sub> , and <otherscientificterm_1> of the predictor and introduce <otherscientificterm_8> that build upon the initial penalties . the <method_12> facilitate <otherscientificterm_7> in <otherscientificterm_9> , which is a useful property in <task_11> and other related tasks . we report empirical results that demonstrate the power of our approach in building accurate and <method_4> .",
+-    "abstract_og": "we derive generalizations of adaboost and related gradient-based coordinate descent methods that incorporate forward feature induction for the norm of the predictor that is being learned . the end result is a family of automatic stopping criterion that integrate structurally sparse models and regularization through mixed-norm regularizers and give an norms for parameter space . we study penalties based on the <i> l </i> <sub> 1 </sub> , <i> l </i> <sub> 2 </sub> , and <i> l </i> &#8734 of the predictor and introduce structural sparsity that build upon the initial penalties . the multiclass prediction facilitate sparsity-promoting penalties in mixed-norm penalties , which is a useful property in feature induction and other related tasks . we report empirical results that demonstrate the power of our approach in building accurate and coordinate descent algorithms ."
++    "abstract_og": "we derive generalizations of adaboost and related gradient-based coordinate descent methods that incorporate sparsity-promoting penalties for the norm of the predictor that is being learned . the end result is a family of coordinate descent algorithms that integrate forward feature induction and back-pruning through regularization and give an automatic stopping criterion for feature induction . we study penalties based on the <i> l </i> <sub> 1 </sub> , <i> l </i> <sub> 2 </sub> , and <i> l </i> &#8734 norms of the predictor and introduce mixed-norm penalties that build upon the initial penalties . the mixed-norm regularizers facilitate structural sparsity in parameter space , which is a useful property in multiclass prediction and other related tasks . we report empirical results that demonstrate the power of our approach in building accurate and structurally sparse models ."
+   },
+   {
+     "title": "Sharing annotations better : RESTful Open Annotation .",
+@@ -845065,28 +845060,6 @@
+     "abstract_og": "this paper proposes an emotion clustering procedure for emotion detection in infants ' cries . our emotion clustering procedure is performed using the results of subjective opinion tests regarding the emotions expressed in infants ' cries . through the emotion clustering procedure , we obtain a tree data structure of emotion clusters that are generated by the progressive merging of emotions . emotion merging is carried out on the condition that the objective function concerning the ambiguity of emotions that were detected in the opinion tests is minimized . clustering experiments are performed on the results of opinion tests completed by infants ' mothers and baby-rearing experts . the experimental results show that the proposed emotion clustering procedure , which considers the evaluation rank of each emotion , is superior to the emotion clustering procedure that is only concerned with the detection/nondetection of each emotion . based on the emotion clustering procedure results , we performed a preliminary recognition experiment on two emotion clusters . according to the recognition results , the proposed emotion clustering procedure achieves a detection rate of 75 % , which shows the effectiveness of the proposed emotion clustering procedure ."
+   },
+   {
+-    "title": "Reasoning about Temporal Relations : A Maximal Tractable Subclass of Allen 's Interval Algebra .",
+-    "entities": [
+-      "allen 's interval algebra",
+-      "&#8220",
+-      "ord-horn subclass",
+-      "machine-generated case analysis",
+-      "&#8220",
+-      "pointisable subclass",
+-      "polynomial-time problem",
+-      "full algebra",
+-      "path-consistency method",
+-      "ord-horn subclass",
+-      "basic relations"
+-    ],
+-    "types": "<method> <otherscientificterm> <method> <otherscientificterm> <task> <otherscientificterm> <method> <otherscientificterm> <otherscientificterm>",
+-    "relations": [
+-      "&#8220 -- HYPONYM-OF -- allen 's interval algebra"
+-    ],
+-    "abstract": "we introduce a new subclass of <method_0> we call <otherscientificterm_1> , &#8221; which is a strict superset of the <otherscientificterm_3> . &#8221; we prove that reasoning in the <otherscientificterm_7> is a <task_4> and show that the <method_6> is sufficient for deciding satisfiability . further , using an extensive <method_2> , we show that the <otherscientificterm_7> is a maximal tractable subclass of the <otherscientificterm_5> -lrb- assuming p <inline-equation> <f> &#8800; </f> </inline-equation> np -rrb- . in fact , it is the unique greatest tractable subclass amongst the subclasses that contain all <otherscientificterm_8> .",
+-    "abstract_og": "we introduce a new subclass of allen 's interval algebra we call &#8220 , &#8221; which is a strict superset of the machine-generated case analysis . &#8221; we prove that reasoning in the full algebra is a &#8220 and show that the polynomial-time problem is sufficient for deciding satisfiability . further , using an extensive ord-horn subclass , we show that the full algebra is a maximal tractable subclass of the pointisable subclass -lrb- assuming p <inline-equation> <f> &#8800; </f> </inline-equation> np -rrb- . in fact , it is the unique greatest tractable subclass amongst the subclasses that contain all path-consistency method ."
+-  },
+-  {
+     "title": "Designing a speaker-discriminative adaptive filter bank for speaker recognition .",
+     "entities": [
+       "speaker recognition front-end",
+@@ -848733,8 +848706,7 @@
+   {
+     "title": "Bayesian multi-population haplotype inference via a hierarchical dirichlet process mixture .",
+     "entities": [
+-      "two-level nested p &#243",
+-      "lya urn scheme",
++      "two-level nested p &#243 lya urn scheme",
+       "hierarchical dirichlet process",
+       "haplotypes of single nucleotide polymorphisms",
+       "<i> multi-population haplotype inference </i>",
+@@ -848756,17 +848728,17 @@
+     ],
+     "types": "<method> <method> <otherscientificterm> <task> <material> <otherscientificterm> <task> <method> <task> <method> <material> <otherscientificterm> <method> <method> <otherscientificterm> <otherscientificterm> <otherscientificterm> <task> <otherscientificterm>",
+     "relations": [
+-      "lya urn scheme -- USED-FOR -- biological and medical applications",
+-      "two-level nested p &#243 -- USED-FOR -- haplotype phasing",
+-      "haplotype phasing -- USED-FOR -- lya urn scheme",
+-      "maximal parsimony -- USED-FOR -- nonparametric bayesian prior",
+-      "biological and medical applications -- USED-FOR -- population structure",
+-      "<i> multi-population haplotype inference </i> -- EVALUATE-FOR -- haplotype phasing",
+-      "simulated and real biological data -- CONJUNCTION -- genotype data",
+-      "haplotype inference -- CONJUNCTION -- simulated and real biological data"
++      "hierarchical dirichlet process -- USED-FOR -- nonparametric bayesian prior",
++      "two-level nested p &#243 lya urn scheme -- USED-FOR -- sampling algorithm",
++      "sampling algorithm -- USED-FOR -- hierarchical dirichlet process",
++      "bayesian methodology -- USED-FOR -- haplotype phasing",
++      "nonparametric bayesian prior -- USED-FOR -- cross-population structure",
++      "simulated and real biological data -- EVALUATE-FOR -- sampling algorithm",
++      "finite and infinite mixtures -- CONJUNCTION -- maximal parsimony",
++      "coalescence -- CONJUNCTION -- finite and infinite mixtures"
+     ],
+     "abstract": "uncovering the <otherscientificterm_2> and their <otherscientificterm_14> is essential for many <task_6> . methods for <task_17> developed thus far -- including methods based on <otherscientificterm_18> , <otherscientificterm_5> , and <otherscientificterm_11> -- ignore the underlying <otherscientificterm_15> in the <material_10> . as noted by pritchard -lrb- 2001 -rrb- , different populations can share certain portion of their genetic ancestors , as well as have their own <method_13> through migration and diversification . in this paper , we address the problem of <task_3> . we capture <otherscientificterm_16> using a <method_7> known as the <method_1> -lrb- teh et al. , 2006 -rrb- , conjoining this <method_7> with a recently developed <method_12> for <task_8> known as dp-haplotyper -lrb- xing et al. , 2004 -rrb- . we also develop an efficient <method_9> for the <method_1> based on a <method_0> . we show that our <method_9> outperforms extant algorithms on both <material_4> .",
+-    "abstract_og": "uncovering the hierarchical dirichlet process and their genetic components is essential for many finite and infinite mixtures . methods for cross-population structure developed thus far -- including methods based on haplotype inference , simulated and real biological data , and genotype data -- ignore the underlying population demography in the sampling algorithm . as noted by pritchard -lrb- 2001 -rrb- , different populations can share certain portion of their genetic ancestors , as well as have their own bayesian methodology through migration and diversification . in this paper , we address the problem of haplotypes of single nucleotide polymorphisms . we capture population structure using a biological and medical applications known as the lya urn scheme -lrb- teh et al. , 2006 -rrb- , conjoining this biological and medical applications with a recently developed maximal parsimony for nonparametric bayesian prior known as dp-haplotyper -lrb- xing et al. , 2004 -rrb- . we also develop an efficient haplotype phasing for the lya urn scheme based on a two-level nested p &#243 . we show that our haplotype phasing outperforms extant algorithms on both <i> multi-population haplotype inference </i> ."
++    "abstract_og": "uncovering the haplotypes of single nucleotide polymorphisms and their population demography is essential for many biological and medical applications . methods for haplotype inference developed thus far -- including methods based on coalescence , finite and infinite mixtures , and maximal parsimony -- ignore the underlying population structure in the genotype data . as noted by pritchard -lrb- 2001 -rrb- , different populations can share certain portion of their genetic ancestors , as well as have their own genetic components through migration and diversification . in this paper , we address the problem of <i> multi-population haplotype inference </i> . we capture cross-population structure using a nonparametric bayesian prior known as the hierarchical dirichlet process -lrb- teh et al. , 2006 -rrb- , conjoining this nonparametric bayesian prior with a recently developed bayesian methodology for haplotype phasing known as dp-haplotyper -lrb- xing et al. , 2004 -rrb- . we also develop an efficient sampling algorithm for the hierarchical dirichlet process based on a two-level nested p &#243 lya urn scheme . we show that our sampling algorithm outperforms extant algorithms on both simulated and real biological data ."
+   },
+   {
+     "title": "Time-domain design of linear-phase PR filter banks .",
+@@ -957864,12 +957836,9 @@
+   {
+     "title": "Improved Nystr\u00f6m low-rank approximation and error analysis .",
+     "entities": [
+-      "nystr &#246",
+-      "m sampling scheme",
+-      "nystr &#246",
+-      "m approximation quality",
+-      "nystr &#246",
+-      "m low-rank approximation",
++      "nystr &#246 m sampling scheme",
++      "nystr &#246 m approximation quality",
++      "nystr &#246 m low-rank approximation",
+       "low-rank matrix approximation",
+       "supervised/unsupervised learning tasks",
+       "least squares svm",
+@@ -957885,12 +957854,12 @@
+     ],
+     "types": "<method> <metric> <method> <method> <task> <method> <method> <method> <method> <method> <method> <method> <method> <method> <method>",
+     "relations": [
+-      "low-rank matrix approximation -- HYPONYM-OF -- nystr &#246",
+-      "low-rank matrix approximation -- CONJUNCTION -- m low-rank approximation",
+-      "m low-rank approximation -- HYPONYM-OF -- nystr &#246"
++      "kernel pca -- HYPONYM-OF -- supervised/unsupervised learning tasks",
++      "kernel pca -- CONJUNCTION -- least squares svm",
++      "least squares svm -- HYPONYM-OF -- supervised/unsupervised learning tasks"
+     ],
+     "abstract": "low-rank matrix approximation is an effective tool in alleviating the memory and computational burdens of <method_7> and <method_14> , as the mainstream of such algorithms , has drawn considerable attention in both theory and practice . this paper presents detailed studies on the <method_0> and in particular , an <method_10> that directly relates the <metric_1> with the <method_8> of the landmark points in summarizing the data . the resultant error bound suggests a simple and efficient <method_9> , the <i> k </i> - means <method_13> , for <method_2> . we compare <method_0> with state-of-the-art approaches that range from <method_12> to <method_11> . our <method_0> achieves significant performance gains in a number of <task_4> including <method_6> and <method_5> .",
+-    "abstract_og": "low-rank matrix approximation is an effective tool in alleviating the memory and computational burdens of supervised/unsupervised learning tasks and probabilistic sampling , as the mainstream of such algorithms , has drawn considerable attention in both theory and practice . this paper presents detailed studies on the nystr &#246 and in particular , an kernel methods that directly relates the m sampling scheme with the least squares svm of the landmark points in summarizing the data . the resultant error bound suggests a simple and efficient kernel pca , the <i> k </i> - means error analysis , for nystr &#246 . we compare nystr &#246 with state-of-the-art approaches that range from sampling scheme to encoding powers . our nystr &#246 achieves significant performance gains in a number of nystr &#246 including low-rank matrix approximation and m low-rank approximation ."
++    "abstract_og": "low-rank matrix approximation is an effective tool in alleviating the memory and computational burdens of kernel methods and sampling , as the mainstream of such algorithms , has drawn considerable attention in both theory and practice . this paper presents detailed studies on the nystr &#246 m sampling scheme and in particular , an error analysis that directly relates the nystr &#246 m approximation quality with the encoding powers of the landmark points in summarizing the data . the resultant error bound suggests a simple and efficient sampling scheme , the <i> k </i> - means clustering algorithm , for nystr &#246 m low-rank approximation . we compare nystr &#246 m sampling scheme with state-of-the-art approaches that range from greedy schemes to probabilistic sampling . our nystr &#246 m sampling scheme achieves significant performance gains in a number of supervised/unsupervised learning tasks including kernel pca and least squares svm ."
+   },
+   {
+     "title": "Covariance Estimation for High Dimensional Data Vectors Using the Sparse Matrix Transform .",
+@@ -1039866,4 +1039835,4 @@
+     "abstract": "in this paper , we propose a novel <method_1> for <method_6> in <task_14> . <method_1> is an <method_20> to learn <method_18> for <task_7> . in each step of <method_1> , one new <method_9> is calculated according to <otherscientificterm_16> of an objective function to ensure that <method_1> is added along the direction to maximize the objective function the most . several techniques have been proposed to extend <method_1> from simple <method_18> like <method_2> to <method_0> , including <method_13> to obtain <method_17> , <otherscientificterm_10> to initialize <otherscientificterm_12> to avoid <otherscientificterm_21> , combining <method_15> with <otherscientificterm_4> and using <method_3> for <task_11> . experimental results on the <material_19> have shown that the proposed <method_1> yields relative word and <metric_5> of 10.9 % and 12.9 % , respectively , over the conventional <method_8> .",
+     "abstract_og": "in this paper , we propose a novel boosted mixture learning framework for gaussian mixture hmms in speech recognition . boosted mixture learning framework is an incremental method to learn mixture models for classification problem . in each step of boosted mixture learning framework , one new mixture component is calculated according to functional gradient of an objective function to ensure that boosted mixture learning framework is added along the direction to maximize the objective function the most . several techniques have been proposed to extend boosted mixture learning framework from simple mixture models like gaussian mixture model to gaussian mixture hidden markov model , including viterbi approximation to obtain state segmentation , weight decay to initialize sample weights to avoid overfitting , combining partial updating with global updating of parameters and using bayesian information criterion for parsimonious model-ing . experimental results on the wsj0 task have shown that the proposed boosted mixture learning framework yields relative word and sentence error rate reduction of 10.9 % and 12.9 % , respectively , over the conventional training procedure ."
+   }
+-]
+\ No newline at end of file
++]
