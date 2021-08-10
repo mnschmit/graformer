@@ -165,12 +165,12 @@ def generate_sequence_graph(
         e2 = trip[2]
         rel_label = trip[1]
 
-        e1_node_ids, e1_token_indices = add_string_to_graph(graph, e1, sp)
+        e1_node_ids, e1_token_indices = add_string_to_graph(graph, e1, sp, bpe_dropout)
         node_labels.extend(e1_token_indices)
         rel_node_ids, rel_token_indices = add_string_to_graph(
-            graph, rel_label, sp)
+            graph, rel_label, sp, bpe_dropout)
         node_labels.extend(rel_token_indices)
-        e2_node_ids, e2_token_indices = add_string_to_graph(graph, e2, sp)
+        e2_node_ids, e2_token_indices = add_string_to_graph(graph, e2, sp, bpe_dropout)
         node_labels.extend(e2_token_indices)
 
         if prev_trip_node is not None:
